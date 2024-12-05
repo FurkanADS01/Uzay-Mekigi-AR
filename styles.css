@@ -1,75 +1,106 @@
+/* Genel Stil */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  header {
-    background: #937a3f;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  header nav ul li {
-    display: inline;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .hero {
-    background: url('hero.jpg') no-repeat center center / cover;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  
-  .hero button {
-    background: #937a3f;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-  }
-  
-  section {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-  }
-  
-  .feature {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 5px;
-  }
-  
-  footer {
-    background: #937a3f;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  /* color: #333; */
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* background-color: #333; */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #4CAF50;
+}
+
+main {
+  padding: 20px;
+}
+
+/* index.html İçin Stil */
+main h2 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* about.html İçin Stil */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Resimler Orijinal Boyutlarında Görünsün */
+.image-gallery img {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+section ul li {
+  margin: 5px 0;
+}
+
+/* Footer Stili */
+footer {
+  text-align: center;
+  padding: 10px;
+  /* background-color: #333; */
+  color: white;
+  margin-top: 20px;
+}
