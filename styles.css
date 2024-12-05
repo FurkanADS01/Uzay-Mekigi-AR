@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background: #4CAF50;
+    background: #937a3f;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -40,7 +40,7 @@ body {
   }
   
   .hero button {
-    background: #4CAF50;
+    background: #937a3f;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -67,7 +67,7 @@ body {
   }
   
   footer {
-    background: #4CAF50;
+    background: #937a3f;
     color: white;
     padding: 1rem;
     text-align: center;
