@@ -1,0 +1,125 @@
+/* Genel Stil Ayarları */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header ve Navigasyon */
+header {
+  background-color: #7B3F00;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #7B3F00;
+  padding: 10px 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #7B3F00;
+}
+
+/* Ana İçerik */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bas {
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #7B3F00;
+  margin-bottom: 10px;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #7B3F00;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+/* İletişim Sayfası Özel Stili */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #357ABD;
+}
+
+.contact-page footer {
+  margin-top: 20px;
+  /* Bu sayfada footer'ı alta sabitlemiyoruz */
+}
+
+/* Resimlerin Section Alanından Taşmasını Önleme */
+.content img {
+  max-width: 100%;
+  /* Resmin genişliği section genişliğini geçemez */
+  height: auto;
+  /* Orantılı olarak yeniden boyutlandır */
+  display: block;
+  /* Tarayıcı hatalarını önlemek için blok olarak göster */
+  margin: 0 auto;
+  /* Resmi yatayda ortala */
+  border-radius: 8px;
+  /* İsteğe bağlı: Resim kenarlarını yuvarlat */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); İsteğe bağlı: Gölgeli görünüm */
+}
