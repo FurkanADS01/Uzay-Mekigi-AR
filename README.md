@@ -29,6 +29,6 @@ Gerçekleştirdiğim **Uzay Mekiği Avcısı** eğitici oyununu *Yazılım Mühe
 
 Web sitesinde gezinerek gerekli dokümanlara, SWOT analizine, UML diyagramlarına ve çalışma panosuna ulaşabilirsiniz.
 
-## Çalışma Videosu için [TIKLAYINIZ](https://www.youtube.com/)
+## Çalışma Videosu için [TIKLAYINIZ](https://www.youtube.com/watch?v=NsCqbYT-E6A&t=6s&ab_channel=FurkanPolat)
 
 Bulunan videodan nasıl çalıştığını görebilirsiniz.
