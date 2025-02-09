@@ -19,16 +19,16 @@ Gerçekleştirdiğim **Uzay Mekiği Avcısı** eğitici oyununu *Yazılım Mühe
 ## Çalıştırma
 
 1. **Öncelikle OverlyApp uygulamasını telefonunuza indirin ve çalıştırın.**
-2. **Daha sonra aşağıdaki simgeyi okutun.**
+2. **Daha sonra aşağıdaki görseli taratın.**
 
 ![Uzay Mekiği Avcısı](https://github.com/FurkanADS01/Uzay-Mekigi-AR/blob/main/avci.jpg)
 
 3. **Daha sonra oyunu oynayabilirsiniz.**
 
-## Web Sitesi için [TIKLAYINIZ](https://furkanads01.github.io/Uzay-Mekigi-AR/)
-
-Web sitesinde gezinerek gerekli dokümanlara, SWOT analizine, UML diyagramlarına ve çalışma panosuna ulaşabilirsiniz.
-
 ## Çalışma Videosu için [TIKLAYINIZ](https://www.youtube.com/watch?v=NsCqbYT-E6A&t=6s&ab_channel=FurkanPolat)
 
 Bulunan videodan nasıl çalıştığını görebilirsiniz.
+
+## Web Sitesi için [TIKLAYINIZ](https://furkanads01.github.io/Uzay-Mekigi-AR/)
+
+Web sitesinde gezinerek gerekli dokümanlara, SWOT analizine, UML diyagramlarına ve çalışma panosuna ulaşabilirsiniz.
