@@ -18,7 +18,7 @@ Gerçekleştirdiğim **Uzay Mekiği Avcısı** eğitici oyununu *Yazılım Mühe
 
 ## Çalıştırma
 
-1. **Öncelikle OverlyApp uygulamasını telefonunuza indirin.**
+1. **Öncelikle OverlyApp uygulamasını telefonunuza indirin ve çalıştırın.**
 2. **Daha sonra aşağıdaki simgeyi okutun.**
 
 ![Uzay Mekiği Avcısı](https://github.com/FurkanADS01/Uzay-Mekigi-AR/blob/main/avci.jpg)
